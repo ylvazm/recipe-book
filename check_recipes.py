@@ -10,14 +10,10 @@ paths = Path(__file__).parent.glob("*/*.md")
 errors = 0
 for path in paths:
     if not ingredients_re.search(path.read_text()):
-        print(
-            f'::error file={str(path)},title=Ingredients missing::File is missing an ingredients section: "# Ingredients"'
-        )
+        print(f'File {path} is missing a section: "## Ingredients"')
         errors += 1
     if not instructions_re.search(path.read_text()):
-        print(
-            f'::error file={str(path)},title=Instructions missing::File is missing an instructions section: "# Instructions"'
-        )
+        print(f'File {path} is missing a section: "## Instructions"')
         errors += 1
 
 if errors:
