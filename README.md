@@ -5,7 +5,7 @@ some nice recipes.
 
 This exercise is created from https://github.com/coderefinery/recipe-book-template.
 If you wish to improve the exercise itself, please direct your pull requests
-towards there.
+towards the template repository.
 
 
 ## Categories
