@@ -13,3 +13,4 @@
 
 - mix all together
 - put in hot pan
+- add toppings
