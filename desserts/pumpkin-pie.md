@@ -3,9 +3,7 @@
 
 ## Preparation
 
-testconflict
-- Keep seeds
- main
+- Remove seeds (roast 'em so you have another snack)
 - Bake pumpkin/squash
 - Take out the inside of the pumpkin
 - Use 2 cups of pumpkin pulp per pie
